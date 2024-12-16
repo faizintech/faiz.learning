@@ -4,7 +4,7 @@ console.log("this is me, Faiz alam ");
 // second code
 console.log("Faiz alam");
 
-// !1. Variables: VAriables are container fot Data.
+// !1. Variables: VAriables are container for Data.
 
 //todo fullname = "Tony Stark";
 //todo  age = 34;
@@ -20,8 +20,8 @@ console.log("Faiz alam");
 //! the difference between undefinec and null is that in null we know that there is value but it is empty but in undefined theer is no value it is not defined
 
 
-// ?ther is another value which is stored in a variable called boolean value.It is the type of variable which stores true and false value.
-// ?Suppose we want to know is someone is following me on instagram or not so we will create a variable isFollow and then store true or false
+// ? there  is another value which is stored in a variable called boolean value.It is the type of variable which stores true and false value.
+// ? Suppose we want to know is someone is following me on instagram or not so we will create a variable isFollow and then store true or false
 
 isFollow = false;
 
@@ -50,7 +50,7 @@ isFollow = false;
 
 // if we have to write a variable we can only write 
 
-//todo  fullName = "Camak case where first letter is small and second word firs letter is capital";
+//todo  fullName = "Camak case where first letter is small and second word first letter is capital";
 //todo fullname = "normal case";
 //todo full_name = "snake case";
 //todo full - name="kebab case";
@@ -105,7 +105,7 @@ let totalPrice = 17.34;
 // in this we can not re-declare but we can update the value;
 fullName = "saif alam";
 
-//* const : Variable cannot be re-declared or updated. Ablock scope variable.It is not changable
+//* const : Variable cannot be re-declared or updated. A block scope variable.It is not changable
 
 const myAge = 34;
 const PI = 3.14;
@@ -193,10 +193,12 @@ console.log(student[3]);
 
 
 
-// now lwts say we want to change the value of object age key value 
+// now lets say we want to change the value of object age key value 
 
 student["age"] = student["age"] + 1;
 student["fullName"] = student["Saif alam"];
+
+
 // now if we print the value of age we git 13+1 = 14
 
 console.log(student["age"]);

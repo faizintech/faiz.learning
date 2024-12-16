@@ -8,12 +8,10 @@ line operators */
 
 
 
+// ! -----------------------------------------------------Operators------------------------------------------//
 
-
-
-// ! -----------------------------------------------------Operators------------------------------------------
-
-
+//operators are the assiging symbols through which we can perform some mathematical expressions on the valuse operators are like plus, minus , astrich , slash and many more            
+    
 // !---------------------------- . Arithmatic Operators -------------------------
 
 let a = 5;
@@ -44,7 +42,7 @@ console.log("a*b=", a * b);
 
 console.log("a/b");
 console.log(a / b);
-console.log("a/b=", a / b)
+console.log("a/b=", a / b)                                                  
 
 
 // ? Modulas Operator
@@ -53,7 +51,8 @@ console.log("a/b=", a / b)
 
 console.log("a%b");
 console.log(a % b);
-console.log("a%b=", a % b) //
+console.log("a%b=", a % b) //the answer will be 1 because the remainder of 5%2 will be 1
+
 
 
 // ? exponentiation 
@@ -67,7 +66,7 @@ console.log("a**b=", a ** b)  //!it means a to the power b(a^b) = 5^2 = 25
 
 // ? unary Operators
 
-/*unary operators are the operators which does not need two operands like the previous operators like arithmatic,
+    /*unary operators are the operators which does not need two operands like the previous operators like arithmatic,
  exponentiation and modulas
  these are two different kinds 
  
@@ -146,7 +145,7 @@ console.log(p); // here it will first calculate p=p-3; where p is 5 then it is p
 // ? astrisk equal to (" *=  "): it means a=a*1;
 
 // p *= 4;
-console.log(p) //here it will first calculate p=p*4; where p is 5 the it is p=5*4;
+console.log(p) //here it will first calculate p=p*4; where p is 5 the it is p=5*4 = 20;
 
 
 // ? slash equal to (" /= ") : it means a=a/1;
@@ -184,7 +183,7 @@ console.log("is y equal to z=", y == z); //this means weather y is equal to z or
 
 // ? Not equal to :(" != "): to check is it not equal to 
 
-console.log("is it not equal to =", y != z); //here it it will check wheather y is not equal to z :y =23 ;z=13; the answer is true because it is not equal to 
+console.log("is y not equals to z =", y != z); //here it it will check wheather y is not equal to z :y =23 ;z=13; the answer is true because it is not equal to 
 
 
 // ? triple equalto : (" === ")
@@ -206,7 +205,7 @@ Now, to avoid this mistake we use force equal to (" === ") operator which not on
 
 */
 
-console.log("is this y ===z = ", y === z); // here it is true
+console.log("is this y === z = ", y === z); // here it is not true or false
 
 
 // ? force equal to (" !== ")
