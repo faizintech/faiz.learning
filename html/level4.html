@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- List in HTML  -->
+    <!-- lsit are used to repressent  real life list  data  -->
+    <!-- There are Teo Type of List in HTMl One is Order List and the another is Unorder List -->
+
+    <!-- Unorder List  -->
+    <ul>
+        <li>Apple</li>
+        <li>Mango</li>
+        <li>Orange</li>
+        <li>Guava</li>
+    </ul>
+
+    <!-- Order List -->
+    <ol>
+        <li>India</li>
+        <li>Pakistan</li>
+        <li>China</li>
+        <li>Russia</li>
+    </ol>
+
+    <!-- table in List  : Tables aare used to represent real life table data-->
+    <table>
+        <caption>Student Data</caption>
+        <thead>
+            <tr>//used to display row
+                <th colspan="3">//used to display table header
+                <td>//used to display table data
+                </td>
+                </th>
+            </tr>
+        </thead>
+    </table>
+
+
+    <!-- form in HTML : Form is used to collect data in HTML -->
+    <!-- form action means in phich file the data is going -->
+    <form action="">
+        <!-- form content -->
+        <input type="text" placeholder="Username">
+        <input type="password" placeholder="Username">
+
+
+        <!-- radio input:It is used to collect only one data at a time from the user .NOTE: there is attribute called value in radio input so when the user select any of these radio option the value content goes to the backend  -->
+        <input type="radio" name="class" value="ClassXI" id="">ClassXI
+        <input type="radio" name="class" value="ClassXII" id="">ClassXII
+
+        <!-- Labels: Labels are the type of the div that contains any input where you ca write name of the input before the input field -->
+        <label for="UserName">Name of The User
+            <input type="text" placeholder="Name of the user">
+        </label>
+    </form>
+</body>
+
+
+
+<!-- Class & ID -->
+<div class="group1" id="id1"></div>
+<div class="group1" id="id2"></div>
+
+
+<!-- Checkbox : Checkbox are the type of input wher user can select more than one data at a time -->
+<label for="math">math
+    <input type="checkbox" name="subjeect" value="Math" id="">
+</label>
+<label for="Physics">Physics
+    <input type="checkbox" name="subjeect" value="Physics" id="">
+</label>
+<label for="Compuer-science">
+    Compuer-science
+    <input type="checkbox" name="subjeect" value="Compuer-science" id="">
+</label>
+
+
+<!-- Text Area: Text area is the type of the input where user can write revies or feedback  -->
+<textarea name="Feddback" id="" cols="30" rows="10">
+    <!-- in text area we can gove attribute as rows and comuns where we can set size of the textarea -->
+</textarea>
+
+
+<!-- how we can make a dropdown option in a form -->
+<select name="city" id="">
+    <option value="Kolkata">Kolkata</option>
+    <option value="delhi" selected>Delhi</option>//giving the selected attribute we can set that option as default for
+    the browser
+    <option value="Mumbai">Mumbai</option>
+</select>
+
+<!-- Now to submit a for there is an another input called Submit Button for sending or Submiting to the database file we want -->
+<input type="submit" value="Submit">Submit
+
+
+
+<!-- Iframe Tag :I fram tag is used to display another window to your website  -->
+
+
+<iframe src="https://www.wikipedia.org/" frameborder="0"></iframe>
+
+<!-- Video Tag :Video Tag is used to show Video to your website -->
+<!-- this is he code for the having a video on your website and some attributes for controlling video -->
+<video src="/html/myvideo.mp4" width="560" height="315" controls loop autoplay>My video</video>
+
+</html>
