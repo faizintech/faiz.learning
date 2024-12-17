@@ -11,7 +11,7 @@ line operators */
 // ! -----------------------------------------------------Operators------------------------------------------//
 
 //operators are the assiging symbols through which we can perform some mathematical expressions on the valuse operators are like plus, minus , astrich , slash and many more            
-    
+
 // !---------------------------- . Arithmatic Operators -------------------------
 
 let a = 5;
@@ -42,7 +42,7 @@ console.log("a*b=", a * b);
 
 console.log("a/b");
 console.log(a / b);
-console.log("a/b=", a / b)                                                  
+console.log("a/b=", a / b)
 
 
 // ? Modulas Operator
@@ -66,14 +66,14 @@ console.log("a**b=", a ** b)  //!it means a to the power b(a^b) = 5^2 = 25
 
 // ? unary Operators
 
-    /*unary operators are the operators which does not need two operands like the previous operators like arithmatic,
- exponentiation and modulas
- these are two different kinds 
+/*unary operators are the operators which does not need two operands like the previous operators like arithmatic,
+exponentiation and modulas
+these are two different kinds 
  
- 1.Increment 
- 2 Decrement
+1.Increment 
+2 Decrement
  
- */
+*/
 
 //  * Increment: it is the operator that automatically +1 to the given value
 
@@ -231,4 +231,39 @@ console.log("is y less than z", y < z); //false
 console.log("is y less than equal to z", y <= z)  //false
 
 
-// !----------------------------------------------------
+// !----------------------------------------------------Logical Operators--------------------------------------------------
+
+// Where to use logical operators? 
+/* if there are two expressions the answer of first expressions will be true or false and answer of second expression will be true or false then what will be 
+the final output of these two expressions combindely , here we use the logical operators
+
+ */
+
+// ? Logical AND
+
+//   logical AND says that if the output one is true and and output 2 is true then only the final answer will be true
+
+let cond1 = y > z;
+let cond2 = y === 23;
+
+console.log(cond1 && cond2, "cond1 && cond2"); //here it will print true because both the expressions are true 
+
+
+// ? Logical OR 
+
+// Logical OR says that even if one of the both expressions are true it will print true 
+
+let conditon1 = y < z;
+let condition2 = y == 23;
+
+console.log("condtion1 || condition2 is ", conditon1 || condition2); //this will print true because one of the expressions are true
+
+
+// ? Logical NOT    
+
+// Logical Not operator says the no matter whatever the valu is i will change the value 
+
+let condition = y > z;
+console.log("y is greater than z", !condition); // it will print false because we use the not operator
+
+    
