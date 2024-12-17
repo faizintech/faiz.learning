@@ -80,3 +80,33 @@ const amazon = {
 
 
 
+// practice 3
+
+let numFromUsers = prompt("Enter any Number:");
+if (numFromUsers % 5 === 0) {
+
+    console.log(numFromUsers, "is the multiple of 5");
+} else {
+    console.log(numFromUsers, "is not the multiple of 5");
+}
+
+// practice 4
+
+// type 1
+
+let marks = prompt("enter your marks:");
+let grades;
+if (marks >= 80 && marks <= 100) {
+    grades = "A";
+} else if (marks >= 70 && marks <= 79) {
+    grades = "B";
+
+} else if (marks >= 60 && marks <= 69) {
+    grades = "C";
+} else if (marks >= 50 && marks <= 59) {
+    grades = "D";
+} else if (marks <= 49) {
+    grades = "F"
+}
+
+console.log("according to your marks:",marks,",your grade is ", grades);

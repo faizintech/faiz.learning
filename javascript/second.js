@@ -266,4 +266,30 @@ console.log("condtion1 || condition2 is ", conditon1 || condition2); //this will
 let condition = y > z;
 console.log("y is greater than z", !condition); // it will print false because we use the not operator
 
-    
+
+
+
+// !------------------------------------------------Ternarry Operators-----------------------------------------------------------
+
+// generallly we are performing mathematical expressions on 1 and 2 operands but here we are performing on thre operators 
+// ternary Operatoras are prformed on three operands means a , b , c
+
+// Syntax
+
+// ! condition ? true Output : false Output      IT IS SIMPLE AND COMPOUND IF ELSE STATEMENT
+
+// this means if whatever the output of condition one if it is true then a statement will be executed and if it is false the b statement will be executed
+
+// example1
+let CarDrivingAge = 18;
+let result = CarDrivingAge ? "elegible for driving" : "not eligible for driving";
+console.log(result);
+
+
+// example 2
+
+let studentClass = 10;
+let eligible;
+let eligibleAge = studentClass >= 12 ? eligible = "he can go on picnick" : eligible = "he cant go on picknick";
+console.log(eligible);
+
