@@ -171,7 +171,7 @@ console.log(S);
 
 // ?Non Primitive DataTypes
 
-// * Objects: object is the collection of Values dand we can also say that it is the collection of primitive valus
+// * Objects: object is the collection of Values and we can also say that it is the collection of primitive valus
 // ! Function & arrays are catogrised in object
 
 //todo objects are written in the key pare vales i.e name:faiz age:24 like this 

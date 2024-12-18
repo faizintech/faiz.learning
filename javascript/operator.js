@@ -276,7 +276,7 @@ console.log("y is greater than z", !condition); // it will print false because w
 
 // Syntax
 
-// ! condition ? true Output : false Output      IT IS SIMPLE AND COMPOUND IF ELSE STATEMENT
+// ! condition ? true Output : false Output      IT IS SIMPLE AND COMPOUND IF & ELSE STATEMENT
 
 // this means if whatever the output of condition one if it is true then a statement will be executed and if it is false the b statement will be executed
 
