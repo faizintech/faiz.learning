@@ -147,11 +147,26 @@ let x = Symbol("%")
 /*practice question-2: create a game where you start with any random game number.Ask the user to 
 keep guessing the number untill the user enters correct Value*/
 
-let gameNumber = 25;
-let userNum = prompt("guess the random Number");
-while (userNum != gameNumber) {
-    userNum = prompt("you enter wrong Number . Guess again");
+// let gameNumber = 25;
+// let userNum = prompt("guess the random Number");
+// while (userNum != gameNumber) {
+//     userNum = prompt("you enter wrong Number . Guess again");
 
-}
+// }
 
-console.log("congratulation you enter the right Number");
+// console.log("congratulation you enter the right Number");
+
+
+// practice question-1: promt the user to enter their full name , generate the user name based on their input,start user name with @ ,followed by their full name and ending with the length of of full name , e,g. @karan4
+
+let Name = "faiz alam";
+// let Name = prompt("enter your full name");
+Name = Name.trim(); //removing all white spaces before and after the string
+Name = Name.replace(" ", ""); //removin all the spaces between the string
+
+let nameLength = Name.length;
+let username = `@${Name}${nameLength}`;
+console.log(username);
+
+
+
