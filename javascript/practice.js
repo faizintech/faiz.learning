@@ -170,3 +170,45 @@ console.log(username);
 
 
 
+// practice question one on arrays
+// Qs-for given array with marks of student -> [85,97,44,37,76,60] find the average marks on the entire class
+
+let marksOfStudent = [85, 97, 44, 37, 76, 60];
+let sumOfTotalMarks = 0;
+let averageMarks;
+for (let idx = 0; idx < marksOfStudent.length; idx++) {
+    sumOfTotalMarks = sumOfTotalMarks + marksOfStudent[idx];
+}
+averageMarks = sumOfTotalMarks / marksOfStudent.length;
+console.log(`average marks of the entire class is ${averageMarks}`);
+
+// we can solve this question via for of loop
+let sum = 0;
+for (val of marksOfStudent) {
+    sum = sum + val;
+}
+let avg = sum / marksOfStudent.length;
+console.log(avg);
+
+
+
+// practice question - for a given array with price of 5 items -> [250,654,300,900,50] , all items have an offer of 10% OFF on them . change the array to store final price after applying offer
+
+let price = [250, 654, 300, 900, 50];
+let i = 0;
+for (let val of price) {
+    let offer = val / 10;
+    price[i] = price[i] - offer;
+    console.log(`the price of items after discount is ${price[i]}`);
+    i++;
+}
+
+// a for loop for solving the same method it is easier when it for loop because in this method we dont have to put extra method to get the index
+let items = [250, 654, 300, 900, 50];
+for (let idx = 0; idx < items.length; idx++) {
+    let offer = items[idx] / 10;
+    items[idx] -= offer;
+    console.log(`the price of the item after discount is ${items[idx]}`)
+
+}
+console.log
