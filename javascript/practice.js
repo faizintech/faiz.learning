@@ -212,3 +212,67 @@ for (let idx = 0; idx < items.length; idx++) {
 
 }
 console.log
+
+
+
+
+// Create an array to store companies -> “Bloomberg”,“Microsoft”,“Uber”,“Google”,“IBM”,“Netflix”;
+// a. Remove the first company from the array
+
+// b. Remove Uber & Add Ola in its place
+
+// c. Add Amazon at the end
+
+// Create an array to store companies -> ["bloomberg","microsoft","Uber","Google","IBM","Netflix"];
+// a. Remove the first company from the array
+
+// b. Remove Uber & Add Ola in its place
+
+// c. Add Amazon at the end
+
+
+let arr = ["bloomberg", "microsoft", "Uber", "Google", "IBM", "Netflix"];
+// a
+arr.shift();
+console.log(arr);
+
+// b
+arr.splice(1, 1, "ola");
+console.log(arr);
+
+// c
+arr.push("Amazon");
+console.log(arr);
+
+
+
+// Create a function using the “function” keyword that takes a String as an argument &
+// returns the number of vowels in the string.
+
+function noofVowels(string) {
+    let stringMethod = "string";
+    if (typeof (stringMethod) !== typeof (string)) {
+        console.log("argument is not string")
+    }
+    count = 0;
+    for (char of string) {
+        if (char === "a" || char === "i" || char === "o" || char === "u" || char === "e") {
+            count += 1;
+        }
+    }
+    return count;
+}
+
+// Create an arrow function to perform the same task.
+
+const countVowels = (str) => {
+    let count = 0;
+    for (i = 0; i <= str.length; i++) {
+        if (str[i] === "a" || str[i] === "i" || str[i] === "o" || str[i] === "u" || str[i]==="e"){
+            count+=1;
+        }
+    }
+    return count;
+}
+
+console.log(countVowels("this is"))
