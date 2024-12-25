@@ -268,11 +268,48 @@ function noofVowels(string) {
 const countVowels = (str) => {
     let count = 0;
     for (i = 0; i <= str.length; i++) {
-        if (str[i] === "a" || str[i] === "i" || str[i] === "o" || str[i] === "u" || str[i]==="e"){
-            count+=1;
+        if (str[i] === "a" || str[i] === "i" || str[i] === "o" || str[i] === "u" || str[i] === "e") {
+            count += 1;
         }
     }
     return count;
 }
 
 console.log(countVowels("this is"))
+
+
+// For a given array of numbers, print the square of each value using the forEach loop.
+
+let numberofArray = [1, 2, 3, 4, 5];
+numberofArray.forEach((val) => {
+    let square = val * val; //we can use val** operator too
+    console.log(`square of ${val} is ${square}`);
+})
+
+
+// 6. We are given array of marks of students. Filter our of the marks of students that scored 90+.
+
+let marks = [77, 98, 96, 88, 44, 90, 91, 99, 95, 93];
+let StudentPlus90 = marks.filter((val) => {
+    return val > 90;
+})
+
+console.log(StudentPlus90);
+
+
+// Take a number n as input from user. Create an array of numbers from 1 to n.
+let numberFromUser = prompt("enetr any number");
+let array = [];
+for (let i = 1; i <= numberFromUser; i++) {
+    array.push(i);
+}
+
+//Use the reduce method to calculate sum of all numbers in the array.
+let sumOfArray = array.reduce((previous, current) => {
+    return previous + current;
+})
+//Use the reduce method to calculate product of all numbers in the array.
+
+let productofArray = array.reduce((previous, current) => {
+    return previous * current;
+})
