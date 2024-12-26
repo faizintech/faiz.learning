@@ -90,7 +90,7 @@ console.log(devdVal);
 
 // !--------------------------------------------------arrow Function--------------------------------------------------------
 
-// arrow function is qay to write functionin a compact way  | arrow function alse a concept of modern Javascript 
+// arrow function is way to write functionin a compact way  | arrow function alse a concept of modern Javascript 
 
 // example of sum of two numbers a and b and it can be stored in a variable
 

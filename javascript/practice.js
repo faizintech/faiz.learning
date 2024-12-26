@@ -313,3 +313,22 @@ let sumOfArray = array.reduce((previous, current) => {
 let productofArray = array.reduce((previous, current) => {
     return previous * current;
 })
+
+
+
+
+/**
+ * @return {Function}
+ */
+var createHelloWorld = function () {
+    function fun2() {
+        console.log("Hello World");
+    }
+    return fun2();
+};
+
+console.log(createHelloWorld());
+/**
+ * const f = createHelloWorld();
+ * f(); // "Hello World"
+ */
