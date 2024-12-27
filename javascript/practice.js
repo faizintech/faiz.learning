@@ -324,7 +324,7 @@ var createHelloWorld = function () {
     function fun2() {
         console.log("Hello World");
     }
-    return fun2();
+    return fun2();gi
 };
 
 console.log(createHelloWorld());
